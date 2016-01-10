@@ -7,14 +7,15 @@ Author : Yulong Wang (@wangylthu)
 Email: yulong31415@126.com
 
 Include following algorithms:
+
 * Matrix Decomposition
   * LU decomposition (direct method)
   * Cholesky decomposition
 * Galerkin methods for solving linear equation
-  * $L_m$ = $K_m$
+  * $$L_m = K_m$$
     * symmetric : Lanczos
     * non-symmetric : Arnoldi
-  * $L_m$ = $AK_m$
+  * $$L_m = AK_m$$
     * symmetric : MINRES
     * non-symmetric : GMRES
 * Ritz methods for solving linear equation
